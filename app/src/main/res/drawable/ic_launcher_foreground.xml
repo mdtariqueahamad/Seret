@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Stroke Paths (Shackle, Outer Hex, Inner Hex) -->
+    <path
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 32 30 V 20 A 18 18 0 0 1 68 20 V 30 M 50 14 L 81.17 32 L 81.17 68 L 50 86 L 18.83 68 L 18.83 32 Z M 50 28 L 69.05 39 L 69.05 61 L 50 72 L 30.95 61 L 30.95 39 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Keyhole (Filled) -->
+    <path android:pathData="M 50 43 A 3.5 3.5 0 1 0 47.4 48.3 L 45.5 57 H 54.5 L 52.6 48.3 A 3.5 3.5 0 1 0 50 43 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Node 1: (50, 14) -->
+    <path android:pathData="M 50 14 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Node 2: (81.17, 68) -->
+    <path android:pathData="M 81.17 68 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Node 3: (18.83, 32) -->
+    <path android:pathData="M 18.83 32 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Node 4: (30.95, 61) -->
+    <path android:pathData="M 30.95 61 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Node 5: (69.05, 39) -->
+    <path android:pathData="M 69.05 39 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0" android:endX="100" android:endY="100" android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF"/>
+                <item android:offset="0.33" android:color="#D1D5DB"/>
+                <item android:offset="0.66" android:color="#FFFFFF"/>
+                <item android:offset="1.0" android:color="#B0B8C4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
